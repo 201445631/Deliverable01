@@ -1,0 +1,51 @@
+<html>
+
+  <head>
+   <Title>
+   Login
+   </Title>
+  </head>
+  
+  <Body>
+      <style type="text/css">
+        .auto-style1 {
+            width: 207px
+        }
+        .auto-style2 {
+            width: 207px;
+            height: 22px;
+        }
+        .auto-style3 {
+            height: 22px;
+        }
+        .auto-style4 {
+            width: 207px;
+            height: 20px;
+        }
+        .auto-style5 {
+            height: 20px;
+        }
+    </style>
+	
+	 <table class="nav-justified">
+        <tr>
+            <td class="auto-style2">Username</td>
+            <td class="auto-style3">
+                <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4">Password</td>
+            <td class="auto-style5">
+                <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style1">&nbsp;</td>
+            <td>
+                <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
+            </td>
+        </tr>
+    </table>
+  </bBdy>
+</html>
